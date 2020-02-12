@@ -6,3 +6,5 @@
 	- Simple component rendering tests w/ enzyme
 	- A redux connected component using the useSelector hook rendering tests with enzyme
 	- Reducer tests
+
+( Test spec files located under ReactReduxUnitTestSandbox/ReactReduxUnitTestSandbox/ClientApp/src/todos )
