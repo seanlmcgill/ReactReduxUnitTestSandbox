@@ -8,8 +8,8 @@ export const TodoItem = props => {
         <Card.Title>{props.todo.title}</Card.Title>
         <Card.Text>{props.todo.description}</Card.Text>
         {props.todo.completed
-          ? showDueAlert(props.todo.dueDate)
-          : showDoneAlert()}
+          ? showDoneAlert()
+          : showDueAlert(props.todo.dueDate)}
       </Card.Body>
     </Card>
   );

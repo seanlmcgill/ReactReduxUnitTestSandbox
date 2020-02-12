@@ -9,6 +9,8 @@ const axiosMock = new MockAdapter(axios);
 const middlewares = [thunk];
 const mockStore = configureMockStore(middlewares);
 
+// Redux action tests w/ mock HTTP via axios mock adapter
+
 describe('Todo actions', () => {
   let store;
 
