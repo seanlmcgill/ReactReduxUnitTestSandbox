@@ -1,0 +1,3 @@
+export const LOAD_TODOS = 'LOAD_TODOS';
+export const LOAD_TODOS_SUCCESS = 'LOAD_TODOS_SUCCESS';
+export const LOAD_TODOS_FAILED = 'LOAD_TODOS_FAILED';
